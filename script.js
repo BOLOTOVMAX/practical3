@@ -57,9 +57,12 @@ console.log(line.search('люблю'));
 // result запишем содержимое переменной txt.
 let txt = 'Регулярные выражения - это шаблоны, используемые для сопоставления последовательностей символов в строках.';
 let n = 6;
-if(txt.length >= 5){
-console.log(result = txt.charAt(0))
-}
+if(n < txt.length){
+    console.log(result = txt.charAt(0) + '...')
+  }else{
+    console.log(result = txt)
+  }
+  
 
 // Для решения задач данного блока вам понадобятся следующие 
 // методы: replace.
